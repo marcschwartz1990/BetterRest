@@ -11,6 +11,7 @@
 		AF9DC85B289EC99F002E9E34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9DC85A289EC99F002E9E34 /* ContentView.swift */; };
 		AF9DC85D289EC99F002E9E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9DC85C289EC99F002E9E34 /* Assets.xcassets */; };
 		AF9DC860289EC99F002E9E34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9DC85F289EC99F002E9E34 /* Preview Assets.xcassets */; };
+		AF9DC86728A03D72002E9E34 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AF9DC86628A03D72002E9E34 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AF9DC85A289EC99F002E9E34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF9DC85C289EC99F002E9E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF9DC85F289EC99F002E9E34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF9DC86628A03D72002E9E34 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				AF9DC858289EC99F002E9E34 /* BetterRestApp.swift */,
+				AF9DC86628A03D72002E9E34 /* SleepCalculator.mlmodel */,
 				AF9DC85A289EC99F002E9E34 /* ContentView.swift */,
 				AF9DC85C289EC99F002E9E34 /* Assets.xcassets */,
 				AF9DC85E289EC99F002E9E34 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9DC86728A03D72002E9E34 /* SleepCalculator.mlmodel in Sources */,
 				AF9DC85B289EC99F002E9E34 /* ContentView.swift in Sources */,
 				AF9DC859289EC99F002E9E34 /* BetterRestApp.swift in Sources */,
 			);
